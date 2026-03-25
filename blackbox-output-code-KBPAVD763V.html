@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Krishna - Divine Inspiration</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Devanagari+Marathi:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #0f3460 100%);
+            color: #fff;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 80%, rgba(255,215,0,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(138,43,226,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(255,20,147,0.05) 0%, transparent 50%);
+            z-index: -1;
+        }
+        
+        header {
+            background: rgba(0, 77, 0, 0.95);
+            padding: 20px 0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            background: linear-gradient(45deg, #ffd700, #00bfff, #ffd700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 0 20px rgba(255,215,0,0.5);
+        }
+        
+        .krishna-frame {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 40px auto;
+            max-width: 500px;
+            border: 3px solid rgba(255,215,0,0.5);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        
+        .krishna-frame img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            border: 8px solid #ffd700;
+            box-shadow: 0 0 30px rgba(255,215,0,0.6);
+        }
+        
+        .section {
+            padding: 60px 0;
+        }
+        
+        .geeta-shlok {
+            background: rgba(0,77,0,0.9);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            border-left: 6px solid #ffd700;
+            text-align: center;
+        }
+        
+        .shlok {
+            font-size: 1.8em;
+            font-weight: 600;
+            margin: 20px 0;
+            line-height: 1.6;
+            color: #ffd700;
+        }
+        
+        .mantra {
+            font-size: 1.4em;
+            color: #00bfff;
+            font-weight: 700;
+            margin: 30px 0;
+            text-shadow: 0 0 10px rgba(0,191,255,0.5);
+        }
+        
+        .motivational-quotes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .quote-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            border: 2px solid rgba(255,215,0,0.3);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .quote-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(255,215,0,0.2);
+        }
+        
+        .quote-text {
+            font-size: 1.3em;
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #ffd700;
+        }
+        
+        footer {
+            background: rgba(0,77,0,0.95);
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 60px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 2em; }
+            .shlok { font-size: 1.4em; }
+            .mantra { font-size: 1.2em; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ॐ श्री कृष्णाय नमः</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Krishna Frame with Embedded Image -->
+        <section class="krishna-frame">
+            <img src="https://images.unsplash.com/photo-1573954518596-f6d3af695b69?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Shree Krishna Divine Frame">
+            <p style="margin-top: 20px; font-size: 1.1em; color: #ffd700;">
+                "जय श्री कृष्ण" - Eternal Divine Beauty
+            </p>
+        </section>
+
+        <!-- Bhagwat Geeta Shlokas -->
+        <section class="section geeta-shlok">
+            <h2 style="color: #ffd700; margin-bottom: 20px; font-size: 2em;">Bhagwat Geeta Shlokas</h2>
+            
+            <div class="shlok">
+                कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।<br>
+                मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥
+            </div>
+            <p style="font-size: 1.1em; margin-top: 15px;">
+                <strong>Translation:</strong> You have a right to perform your prescribed duty, 
+                but you are not entitled to the fruits of action.
+            </p>
+
+            <div class="shlok" style="margin-top: 40px;">
+                योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय।<br>
+                सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते॥
+            </div>
+            <p style="font-size: 1.1em;">
+                <strong>Translation:</strong> Perform your duty equipoised, O Arjuna, 
+                abandoning all attachment to success or failure.
+            </p>
+        </section>
+
+        <!-- Krishna Mantra -->
+        <section class="section" style="text-align: center;">
+            <div class="mantra">
+                ॐ कृष्णाय वासुदेवाय हरि: परमात्मने प्रणत: ।<br>
+                कलेश नाशाय गोविन्दाय नमो नम: ॥
+            </div>
+            <p style="font-size: 1.2em; margin-top: 20px; opacity: 0.9;">
+                Removes all sorrows and grants divine peace
+            </p>
+        </section>
+
+        <!-- Motivational Thoughts -->
+        <section class="section">
+            <h2 style="text-align: center; font-size: 2.5em; margin-bottom: 40px; color: #ffd700;">
+                Divine Wisdom of Shree Krishna
+            </h2>
+            <div class="motivational-quotes">
+                <div class="quote-card">
+                    <div class="quote-text">
+                        "The soul is never born nor dies at any time. 
+                        It has never been created, nor will it ever be destroyed."
+                    </div>
+                    <div style="text-align: right; color: #00bfff; font-weight: 600;">
+                        - Bhagwat Geeta 2.20
+                    </div>
+                </div>
+                
+                <div class="quote-card">
+                    <div class="quote-text">
+                        "Whatever happened, happened for good. 
+                        Whatever is happening, is happening for good."
+                    </div>
+                    <div style="text-align: right; color: #00bfff; font-weight: 600;">
+                        - Krishna's Teaching
+                    </div>
+                </div>
+                
+                <div class="quote-card">
+                    <div class="quote-text">
+                        "Set thy heart upon thy work, but never on its reward."
+                    </div>
+                    <div style="text-align: right; color: #00bfff; font-weight: 600;">
+                        - Bhagwat Geeta 2.47
+                    </div>
+                </div>
+                
+                <div class="quote-card">
+                    <div class="quote-text">
+                        "Fearlessness, purity of heart, steadfastness in knowledge and yoga."
+                    </div>
+                    <div style="text-align: right; color: #00bfff; font-weight: 600;">
+                        - Qualities of Devotee
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p style="margin-bottom: 10px;">&copy; 2024 Shree Krishna Devotional | जय श्री कृष्ण</p>
+            <p style="opacity: 0.8; font-size: 0.9em;">Hare Krishna Hare Krishna, Krishna Krishna Hare Hare</p>
+        </div>
+    </footer>
+
+    <script>
+        // Add sparkle effect on Krishna image
+        document.querySelector('.krishna-frame img').addEventListener('mouseover', function() {
+            this.style.filter = 'brightness(1.2) drop-shadow(0 0 20px rgba(255,215,0,0.8))';
+        });
+        
+        document.querySelector('.krishna-frame img').addEventListener('mouseout', function() {
+            this.style.filter = '';
+        });
+    </script>
+</body>
+</html>
