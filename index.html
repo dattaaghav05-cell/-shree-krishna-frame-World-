@@ -264,3 +264,176 @@
     </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Krishna - Divine Inspiration</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Devanagari+Marathi:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #0f3460 100%);
+            color: #fff;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 80%, rgba(255,215,0,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(138,43,226,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(255,20,147,0.05) 0%, transparent 50%);
+            z-index: -1;
+        }
+        
+        header {
+            background: rgba(0, 77, 0, 0.95);
+            padding: 20px 0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            background: linear-gradient(45deg, #ffd700, #00bfff, #ffd700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 0 20px rgba(255,215,0,0.5);
+        }
+        
+        .krishna-frame {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 40px auto;
+            max-width: 500px;
+            border: 3px solid rgba(255,215,0,0.5);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        
+        .krishna-frame img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            border: 8px solid #ffd700;
+            box-shadow: 0 0 30px rgba(255,215,0,0.6);
+        }
+        
+        .section {
+            padding: 60px 0;
+        }
+        
+        .geeta-shlok {
+            background: rgba(0,77,0,0.9);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            border-left: 6px solid #ffd700;
+            text-align: center;
+        }
+        
+        .shlok {
+            font-size: 1.8em;
+            font-weight: 600;
+            margin: 20px 0;
+            line-height: 1.6;
+            color: #ffd700;
+        }
+        
+        .mantra {
+            font-size: 1.4em;
+            color: #00bfff;
+            font-weight: 700;
+            margin: 30px 0;
+            text-shadow: 0 0 10px rgba(0,191,255,0.5);
+        }
+        
+        .motivational-quotes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .quote-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            border: 2px solid rgba(255,215,0,0.3);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .quote-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(255,215,0,0.2);
+        }
+        
+        .quote-text {
+            font-size: 1.3em;
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #ffd700;
+        }
+        
+        footer {
+            background: rgba(0,77,0,0.95);
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 60px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 2em; }
+            .shlok { font-size: 1.4em; }
+            .mantra { font-size: 1.2em; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ॐ श्री कृष्णाय नमः</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="krishna-frame">
+            <img src="https://images.unsplash.com/photo-1573954518596-f6d3af695b69?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Shree Krishna Divine Frame">
+            <p style="margin-top: 20px; font-size: 1.1em; color: #ffd700;">
+                "जय श्री कृष्ण" - Eternal Divine Beauty
+            </p>
+        </section>
+
+        <section class="section geeta-shlok">
+            <h2 style="color: #ffd700; margin-bottom: 20px; font-size: 2em;">Bhagwat Geeta Shlokas</h2>
+            
+            <div class="shlok">
+                कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।<br>
+                मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥
+            </div>
+            <p style="font-size: 1.1em;
